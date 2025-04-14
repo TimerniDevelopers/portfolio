@@ -2888,7 +2888,21 @@ left: auto;
     }
   }
 
-
+  .section-title h3{
+    color: var(--pompelmo);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+  
+  }
+  .section-title h2{
+    color: #202430;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  
   .service-icons{
     /* display: flex;
     align-items: center;
