@@ -2849,3 +2849,72 @@ left: auto;
         font-size: 14px;
     }
 }
+
+
+.z-index-22{
+    z-index: 22;
+}
+/* /* css animation - start
+================================================== */
+
+.video-icon {
+    padding: 15px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 100px 100px 100px 100px;
+    border-color: #FFFFFF;
+    background-color: var(--pompelmo);
+    animation: ripple 1s linear infinite;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+@keyframes ripple{
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3), 0 0 0 5px rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3), 0 0 0 5px rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3);
+    }
+    
+    100% {
+        -webkit-box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(2241, 42, 2, 0);
+    }
+  }
+
+
+  .service-icons{
+    /* display: flex;
+    align-items: center;
+    gap: 15px; */
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .service-icons li {
+    margin-bottom: 5px;
+    font-size: 17px;
+  }
+  .service-icons i{
+    color: var(--pompelmo);
+  }
+  
+  .services-des p{
+    margin-bottom: 15px;
+  }
+  .services__details-thumb{
+    background-image: url(../img/video.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px 10px 10px 10px;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 180px 0px 180px 0px;
+  }
+  
